@@ -1,5 +1,6 @@
 /*=====body style====*/
-body {
+
+#body {
     font-family: Roboto, sans-serif;
     background: #FFF;
     width: 1440px;
@@ -10,9 +11,103 @@ body {
     text-decoration: none;
 }
 
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*======Header section======*/
+
+.header {}
+
 .nav {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+.Web {
+    color: #4D5AE5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+}
+
+.nav-logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+}
+
+.nav-list {
+    color: #2E2F42;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.Portfolio {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item {}
+
+.nav-list-item-link {}
+
+.Contacts {}
+
+.Contacts-list {}
+
+.Contacts-list-item {}
+
+.Contacts-list-item-link {}
+
+/*======Main section======*/
+
+.main {}
+
+.section {}
+
+.section-caption {}
+
+.main-button {}
+
+.section-title {}
+
+.section-list {}
+
+.section-list-item {}
+
+.section-list-item-subtitle {}
+
+.section-list-item-img {}
+
+.section-list-item-text {}
+
+/*======Footer section======*/
+
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
