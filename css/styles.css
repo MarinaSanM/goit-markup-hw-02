@@ -1,8 +1,8 @@
 /*=====body style====*/
 
-#body {
+body {
     font-family: Roboto, sans-serif;
-    background: #FFF;
+    background-color: #FFFFFF;
     width: 1440px;
     height: 2060px;
     font-size: 16px;
@@ -16,9 +16,11 @@ li {
     list-style-type: none;
 }
 
-a {
+a:link {
     text-decoration: none;
+    color: #2E2F42;
 }
+
 
 /*======Header section======*/
 
@@ -32,43 +34,54 @@ a {
     letter-spacing: 0.02em;
 }
 
-.Web {
+a:hover {
+    color: #404BBF;
+}
+
+a:focus {
+    color: #404BBF;
+}
+
+.nav-web {
+    font-family: Raleway, sans-serif;
     color: #4D5AE5;
-    font-family: Raleway;
     text-shadow: 0px 4px 4px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.nav-logo {
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: -0.03em;
+.logo {
+    color: #2E2F42;
 }
 
-.nav-list {
+.logo:hover {
+    color: #4D5AE5;
+}
+
+.nav-link {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
-.Portfolio {
+.nav-link-two {
+    font-size: 16px;
     text-shadow: 0px 4px 4px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.nav-list-item {}
-
-.nav-list-item-link {}
+.nav-link-two:hover {
+    text-decoration: underline;
+}
 
 .Contacts {
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -79,6 +92,8 @@ a {
 .Contacts-list-item {}
 
 .Contacts-list-item-link {
+    font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -91,11 +106,11 @@ a {
 
 .caption {
     height: 600px;
-    background: #2E2F42;
+    background-color: #2E2F42;
 }
 
 .section-caption {
-    color: #FFF;
+    color: #FFFFFF;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -104,13 +119,23 @@ a {
 }
 
 .main-button {
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     color: #FFF;
     /* Button Text */
+    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
+}
+
+.main-button:hover {
+    background-color: #404BBF;
+}
+
+.main-button:focus {
+    background-color: #404BBF;
 }
 
 .section-title {
@@ -121,10 +146,6 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-
-.section-list {}
-
-.section-list-item {}
 
 .section-list-item-subtitle {
     font-size: 20px;
@@ -139,6 +160,7 @@ a {
 }
 
 .section-list-item-text {
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -151,13 +173,13 @@ a {
 /*======Footer section======*/
 
 .footer {
-    background: #2E2F42;
+    background-color: #2E2F42;
     height: 312px;
 }
 
-.footer-logo {
-    color: #F4F4FD;
-    font-family: Raleway;
+.footer-web {
+    color: #4D5AE5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -166,8 +188,9 @@ a {
     width: 71px;
 }
 
-.footer-web {
-    color: #4D5AE5;
+.footer-logo {
+    color: #f4f4f4;
+    /***
     font-family: Raleway;
     font-size: 18px;
     font-weight: 700;
@@ -175,6 +198,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     width: 44px;
+    **/
 }
 
 .footer-text {
