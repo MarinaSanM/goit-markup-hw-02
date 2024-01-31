@@ -3,8 +3,6 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
-    width: 1440px;
-    height: 2060px;
     font-size: 16px;
     font-style: normal;
     color: #434455;
@@ -24,23 +22,18 @@ a:link {
 
 /*======Header section======*/
 
-.header {
-    color: #2E2F42;
-}
-
 .nav {
+    color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-a:hover {
-    color: #404BBF;
-}
-
+a:hover,
 a:focus {
     color: #404BBF;
 }
+
 
 .nav-web {
     font-family: Raleway, sans-serif;
@@ -53,11 +46,12 @@ a:focus {
     text-transform: uppercase;
 }
 
-.logo {
+.nav-logo {
     color: #2E2F42;
 }
 
-.logo:hover {
+.nav-logo:hover,
+.nav-logo:focus {
     color: #4D5AE5;
 }
 
@@ -87,13 +81,8 @@ a:focus {
     letter-spacing: 0.02em;
 }
 
-.Contacts-list {}
-
-.Contacts-list-item {}
-
 .Contacts-list-item-link {
     font-size: 16px;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -105,7 +94,6 @@ a:focus {
 }
 
 .caption {
-    height: 600px;
     background-color: #2E2F42;
 }
 
@@ -130,10 +118,7 @@ a:focus {
 
 }
 
-.main-button:hover {
-    background-color: #404BBF;
-}
-
+.main-button:hover,
 .main-button:focus {
     background-color: #404BBF;
 }
@@ -174,7 +159,6 @@ a:focus {
 
 .footer {
     background-color: #2E2F42;
-    height: 312px;
 }
 
 .footer-web {
@@ -190,15 +174,6 @@ a:focus {
 
 .footer-logo {
     color: #f4f4f4;
-    /***
-    font-family: Raleway;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    width: 44px;
-    **/
 }
 
 .footer-text {
@@ -206,5 +181,4 @@ a:focus {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
 }
