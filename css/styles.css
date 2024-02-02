@@ -49,11 +49,6 @@ a {
     color: #404BBF;
 }
 
-.two:active {
-    text-decoration: underline;
-    color: #404BBF;
-}
-
 .Contacts-list-item-link {
     color: #434455;
     font-style: normal;
