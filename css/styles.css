@@ -1,43 +1,25 @@
 /*=====body style====*/
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #FFFFFF;
     font-size: 16px;
-    font-style: normal;
     color: #434455;
-    list-style-type: none;
-    text-decoration: none;
 }
 
 li {
     list-style-type: none;
 }
 
-a:link {
+a {
     text-decoration: none;
-    color: #2E2F42;
 }
 
 /*======Header section======*/
 
-.nav {
-    color: #2E2F42;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
-a:hover,
-a:focus {
-    color: #404BBF;
-}
-
-
 .nav-web {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
-    text-shadow: 0px 4px 4px;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -54,36 +36,40 @@ a:focus {
     color: #4D5AE5;
 }
 
-.nav-link {
+.nav-link-one,
+.nav-link-two,
+.nav-link-three {
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.nav-link-two {
-    font-size: 16px;
-    text-shadow: 0px 4px 4px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.nav-link-one:hover,
+.nav-link-one:focus,
+.nav-link-two:focus,
+.nav-link-three:hover,
+.nav-link-three:focus {
+    color: #404BBF;
 }
 
 .nav-link-two:hover {
     text-decoration: underline;
-}
-
-.Contacts {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    color: #404BBF;
 }
 
 .Contacts-list-item-link {
+    color: #2E2F42;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.Contacts-list-item-link:hover,
+.Contacts-list-item-link:focus {
+    color: #404BBF;
 }
 
 /*======Main section======*/
@@ -162,7 +148,7 @@ a:focus {
 
 .footer-web {
     color: #4D5AE5;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
