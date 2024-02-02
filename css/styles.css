@@ -49,17 +49,20 @@ a {
     color: #404BBF;
 }
 
-.Contacts-list-item-link {
-    color: #434455;
+address {
     font-style: normal;
+}
+
+.contacts-list-item-link {
+    color: #434455;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.Contacts-list-item-link:hover,
-.Contacts-list-item-link:focus {
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
     color: #404BBF;
 }
 
@@ -69,7 +72,7 @@ a {
     color: #2E2F42;
 }
 
-.caption {
+.section_one {
     background-color: #2E2F42;
 }
 
