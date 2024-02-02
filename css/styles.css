@@ -102,6 +102,10 @@ address {
     background-color: #404BBF;
 }
 
+.section_three {
+    background-color: #F4F4FD;
+}
+
 .section-title {
     text-align: center;
     font-size: 36px;
@@ -126,8 +130,8 @@ address {
     letter-spacing: 0.02em;
 }
 
-.our-specialists {
-    background: #F4F4FD;
+.section-list-item_three {
+    background-color: #FFFFFF
 }
 
 /*======Footer section======*/
