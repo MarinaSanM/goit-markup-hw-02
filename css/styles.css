@@ -45,9 +45,8 @@ a {
 }
 
 .nav-link-item:hover,
-.nav-link-item:focus,
-{
-color: #404BBF;
+.nav-link-item:focus {
+    color: #404BBF;
 }
 
 .two:active {
